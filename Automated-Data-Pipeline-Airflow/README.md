@@ -1,6 +1,6 @@
 # Weather Data Pipeline using Airflow and AWS S3
 
-![Weather Data Pipeline Image](pipeline.png)
+<img width="1275" alt="Architecture Airflow Weather" src="https://github.com/AshrafHassan95/Data-Engineering-Projects/assets/112810015/645a626a-3d4d-4a15-b115-cb584dc91256">
 
 ## Overview
 
@@ -9,7 +9,7 @@ This project is designed to collect weather data from a weather API and store it
 ## Features
 
 **1. Data Collection**
-- The pipeline fetches weather data from a weather API.
+- The pipeline fetches weather data from a OpenWeather API.
 - It supports dynamic configuration to collect data for different locations and parameters.
 
 **2. Data Transformation**
@@ -33,8 +33,7 @@ This project is designed to collect weather data from a weather API and store it
 - **Apache Airflow**: Orchestrating the data pipeline and scheduling tasks.
 - **Python 3**: Writing custom data collection and transformation scripts.
 - **Pandas**: Data manipulation and transformation.
-- **Boto3**: Interacting with AWS S3 for data storage.
-- **Weather API**: Fetching weather data (replace with the name of the specific weather API you use).
+- **OpenWeather API**: Fetching weather data.
 
 ## Usage
 
